@@ -1,0 +1,157 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+.over-look-page {
+    position: relative;
+}
+
+.my-header {
+    width: 100%;
+    position: fixed;
+    height: 64px;
+    background-color: gray;
+    top: 0;
+}
+
+.all-wall {
+    width: 100%;
+    margin-top: 64px;
+    background-color: #e9e6e6;
+}
+
+.d-block {
+    height: 360px;
+}
+
+.my-navbar {
+
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 64px;
+}
+
+.my-hover {
+    padding: 0px 20px;
+    width: auto;
+}
+
+.my-hover:hover  {
+    background-color: #ccc;
+
+}
+
+.push-navbar {
+    width: auto;
+}
+
+.slide {
+    margin-bottom: 50px;
+    height: 360px;
+    background-color: #ccc;
+    padding-bottom: 64px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topic-content {
+    margin-bottom: 50px;
+}
+
+.img-content {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.more-info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.item-name {
+    text-align: center;
+}
+
+.item-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+
+.item-inside {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item-inside-img {
+    width: 250px;
+
+}
+
+.infor-footer {
+    background-color: black;
+    height: 410px;
+}
+
+.ads {
+    background-image: url(/asset/images/info1.webp);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: red;
+    margin-bottom: 20px;
+    background-size: 1200px;
+}
+
+.ads-h2 {
+    line-height: 350px;
+}
+
+.news-infor {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.h3-style {
+    color: white;
+    padding-top: 30px;
+}
+
+.news-infor-more {
+    padding: 10px;
+}
+
+.sign-fulfill {
+    display: flex;
+    width: 535px;
+    margin-left: 310px;
+    padding-bottom: 50px;
+}
+
+.form-label {
+    width: 170px;
+    line-height: 50px;
+}
+
+.my-btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 30px!important;
+}
+
+.form-control {
+    height: 50px;
+}
